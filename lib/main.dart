@@ -83,14 +83,14 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Pedometer example app'),
+          title: const Text('count steps app'),
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                'Steps taken:',
+                'Steps Counted',
                 style: TextStyle(fontSize: 30),
               ),
               Text(
@@ -103,7 +103,7 @@ class _MyAppState extends State<MyApp> {
                 color: Colors.white,
               ),
               const Text(
-                'Pedestrian status:',
+                'Pedestrian status',
                 style: TextStyle(fontSize: 30),
               ),
               Icon(
